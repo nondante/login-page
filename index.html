@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Login</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css?v=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div id="login-container" class="login-container">
+      <div class="login-form">
+      <div class="login-header">
+        <h1>Login</h1>
+        <img class="login-logo" src="img/logo.png" alt="Logo">
+      </div>
+      <img class="line-under" src="img/line_under.png" alt="Underline">
+
+        <form>
+          <div class="required">
+            <label for="email">Email<span class="asterix">*</span></label>
+            <span class="email-icon"></span>
+
+          </div>
+          <input class="form-fields" type="email" name="email" id="email">
+
+          <div id="required-password"
+
+
+           class="required">
+            <label for="password">Password<span class="asterix">*</span></label>
+            <span class="loc-icon"></span>
+          </div>
+          <input class="form-fields" type="password" name="password" id="password">
+          <div class="login-buttons">
+            <button id="login-btn-2" type="button" value="LOGIN" class="login-btn">LOGIN</button>
+            <input type="image" src="img/Forgot_.png" class="forgot-btn">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="dont-have-account" class="dont-have-account">
+      <div class="dont-have-account-header">
+        <h1 id="dont-have-account-h1">Don’t have an account?</h1>
+      </div>
+      <div class="dont-have-account-body">
+        <img class="line-under" src="img/line_under.png" alt="Underline">
+        <p id="sign-up-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button id="sign-up-btn" class="sign-up-btn" type="button" name="button">SIGN UP</button>
+      </div>
+    </div>
+    <div id="sign-up-form" class="login-container">
+      <div class="login-form">
+      <div class="login-header">
+        <h1>Sign Up</h1>
+        <img class="login-logo" src="img/logo.png" alt="Logo">
+      </div>
+      <img class="line-under" src="img/line_under.png" alt="Underline">
+
+        <form>
+          <div class="required">
+            <label for="email">Name<span class="asterix">*</span></label>
+            <span class="name-icon"></span>
+          </div>
+          <input class="form-fields" type="name" name="name" id="name">
+          <div id="required-email" class="required">
+            <label for="email">Email<span class="asterix">*</span></label>
+            <span class="email-icon"></span>
+          </div>
+          <input class="form-fields" type="email" name="email" id="email">
+          <div id="required-password"class="required">
+            <label for="password">Password<span class="asterix">*</span></label>
+            <span class="loc-icon"></span>
+          </div>
+          <input class="form-fields" type="password" name="password" id="password">
+          <div class="login-buttons">
+            <button type="button" value="SIGN UP" id="sign-up-btn" class="login-btn">SIGN UP</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="have-account" class="dont-have-account">
+      <div id="have-account-wrapper">
+        <div id="have-account-h1" class="dont-have-account-header">
+          <h1 >Have an account?</h1>
+        </div>
+        <div id="dont-have-account-body" class="dont-have-account-body">
+          <img id="line-under-login" class="line-under" src="img/line_under.png" alt="Underline">
+          <p id="login-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button id="login-btn" class="sign-up-btn" type="button" name="button">LOG IN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>All Rights Reserved “Magebit” 2016.</p>
+  </footer>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="scripts.js"></script>
+
+</body>
+</html>

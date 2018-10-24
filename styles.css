@@ -1,0 +1,409 @@
+
+/****** LOGIN PANEL ******/
+
+body {
+  background-image: url('img/Background.png');
+}
+.line-under {
+  display:block;
+  margin: 25px 0;
+}
+
+.login-header h1 {
+  display: inline-block;
+  font-size: 28px;
+  font-family: "Source Sans Pro";
+  color: rgb(62, 73, 94);
+  line-height: 1.25;
+}
+
+
+.login-logo {
+  float: right;
+  display: inline-block;
+}
+
+.required {
+  position: relative;
+}
+
+.login-buttons {
+  position: relative;
+  margin-top: 25px;
+}
+
+.login-btn {
+  display: inline-block;
+  float: left;
+  border: none;
+  border-radius:100em!important;
+  background: transparent;
+  cursor: pointer;
+  background-color: rgb(248, 154, 53);
+  width: 140px;
+  height: 50px;
+}
+
+#login-btn {
+  display: block;
+}
+
+#login-text{
+  display: block;
+  width: 85%;
+  line-height: 1.692;
+
+}
+
+#sign-up-text{
+  line-height: 1.692;
+
+}
+
+#line-under-login{
+  display: block;
+}
+
+#have-account-h1{
+
+}
+
+#dont-have-account{
+  height: 400px;
+}
+#have-account{
+  height: 400px;
+}
+
+#have-account-wrapper{
+  width: 40%;
+  float: right;
+  margin: auto;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+}
+
+#sign-up-form{
+  display: none;
+}
+
+.login-btn:hover {
+  background-color: rgb(248, 191, 53);
+}
+
+.login-buttons button {
+  outline: none;
+  font-size: 13px;
+  font-family: "Source Sans Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.692;
+  text-align: center;
+}
+
+.forgot-btn {
+  position: static;
+  display: none;
+  float: right;
+}
+
+.loc-icon {
+  width: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  content: url("img/ic_lock.png");
+}
+
+.email-icon {
+  width: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  content: url("img/ic_mail.png");
+}
+
+.name-icon {
+  width: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  content: url("img/ic_user.png");
+}
+
+.asterix {
+  color: red;
+}
+
+.login-form {
+  margin: auto;
+  width: 50%;
+}
+
+.form-fields {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #cbd2df;
+  padding: 2px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: rgb(132, 149, 183);
+}
+
+#required-password {
+  margin-top: 25px;
+}
+
+#required-email {
+  margin-top: 25px;
+}
+
+footer {
+  font-size: 13px;
+  font-family: "Source Sans Pro";
+  color: rgb(167, 179, 203);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.692;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: -35px;
+}
+
+#login-container {
+  background: white;
+  position: absolute;
+  width: 35%;
+  z-index: 100;
+  padding-bottom: 45px;
+  padding-top: 120px;
+  left: 48%;
+  top: 15%;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+#login-btn-2{
+  margin-bottom: 25px;
+}
+
+
+
+/****** END OF LOGIN PANEL ******/
+
+.sign-up-btn {
+  outline: none;
+  display: inline-block;
+  border: none;
+  border-radius:100em!important;
+  background: transparent;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(73, 171, 254);
+  background-color: rgba(73, 171, 254, 0);
+  width: 140px;
+  height: 50px;
+  font-size: 13px;
+  font-family: "Source Sans Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2.692;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.sign-up-btn:hover {
+  background-color: rgb(73, 171, 254);
+}
+
+.dont-have-account {
+  width: 70%;
+  height: 50%;
+  position:absolute; /*it can be fixed too*/
+  left:0; right:0;
+  top:0; bottom:0;
+  margin:auto;
+  overflow:auto;
+  align-content: center;
+  align-items: center;
+  background-color: rgba(15, 26, 47, 0.8);
+}
+
+
+
+.dont-have-account-header h1 {
+  font-size: 28px;
+  font-family: "Source Sans Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.25;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10%;
+}
+
+.dont-have-account-body {
+
+  width: 90%;
+  margin: auto;
+}
+
+.dont-have-account-body p {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  color: rgb(255, 255, 255);
+  width: 40%;
+  line-height: 1.25;
+}
+
+#have-account {
+  display: none;
+  visibility: hidden;
+}
+
+.wrapper {
+  min-height: calc(100vh - 100px);
+}
+
+footer {
+  height: 50px;
+}
+
+@media  (max-width: 968px) {
+    /* For mobile phones: */
+    /****** LOGIN PANEL ******/
+    body {
+      background-image: none;
+    }
+    .login-container {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      align-content: center;
+      align-items: center;
+      background: transparent;
+    }
+
+    #login-container {
+      padding-top: 45px;
+      position: static;
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      align-content: center;
+      align-items: center;
+      border: none;
+      box-shadow: none;
+    }
+
+    #sign-up-form{
+      display: block;
+    }
+
+    #have-account-wrapper{
+      position: static;
+      float: left;
+      width: 90%;
+      margin: 0 auto;
+
+    }
+
+    .login-form {
+      width: 100%;
+      margin: 10% auto;
+      padding-bottom: 45px;
+    }
+
+    .forgot-btn {
+      display: block;
+      position: static;
+      margin: 0;
+      margin-top: 25px;
+      pointer-events: none;
+    }
+
+    .login-buttons {
+      position: block;
+      margin-top: 25px;
+      pointer-events: none;
+    }
+
+    .wrapper {
+      margin: 0 auto;
+      width: 100%;
+      align-content: center;
+      align-items: center;
+    }
+
+    .dont-have-account {
+      margin: 0 auto;
+      width: 100%;
+      position: static;
+      align-content: center;
+      align-items: center;
+      background-color: rgba(15, 26, 47, 0.8);
+    }
+
+    .dont-have-account-header h1 {
+      font-size: 28px;
+      font-family: "Source Sans Pro";
+      color: rgb(255, 255, 255);
+      line-height: 1.25;
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 10%;
+    }
+
+    .dont-have-account-body {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .dont-have-account-body p {
+      font-size: 16px;
+      font-family: "Source Sans Pro";
+      color: rgb(255, 255, 255);
+      width: 60%;
+      line-height: 1.25;
+    }
+
+    #have-account {
+      display: block;
+      visibility: visible;
+    }
+
+    #login-btn {
+      pointer-events: none;
+    }
+
+    #sign-up-btn {
+      pointer-events: none;
+    }
+
+
+    /****** END OF LOGIN PANEL ******/
+
+
+
+}
